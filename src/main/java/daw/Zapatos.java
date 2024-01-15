@@ -15,7 +15,6 @@ public class Zapatos {
     private double talla;
 
     // Contructor 
-
     public Zapatos(String color, double talla) {
         this.color = color;
         this.talla = talla;
@@ -25,7 +24,6 @@ public class Zapatos {
     }
     
     // Getters y Setters
-
     public String getColor() {
         return color;
     }
@@ -41,7 +39,15 @@ public class Zapatos {
     public void setTalla(double talla) {
         this.talla = talla;
     }
-    //
-        
+    
+    // ToString 
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Color zapatos = ").append(color);
+        sb.append(", Talla zapatos = ").append(talla);
+        return sb.toString();
+    }
+    
 }
-//
