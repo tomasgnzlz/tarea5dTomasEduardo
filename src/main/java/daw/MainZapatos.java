@@ -23,5 +23,6 @@ public class MainZapatos {
         System.out.println(z2);
         System.out.println(z3);
         System.out.println(z4);
+        // probado
     }
 }
