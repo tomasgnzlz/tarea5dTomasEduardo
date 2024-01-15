@@ -9,6 +9,20 @@ package daw;
  * @author edu
  */
 public class Zapatos {
-     String color ;
-     double talla;
+
+    // Atributos encapsulados
+    String color;
+    double talla;
+
+    // Contructor 
+
+    public Zapatos(String color, double talla) {
+        this.color = color;
+        this.talla = talla;
+    }
+
+    public Zapatos() {
+    }
+        
 }
+//
