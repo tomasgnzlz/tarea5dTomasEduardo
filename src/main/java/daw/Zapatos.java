@@ -22,7 +22,7 @@ public class Zapatos {
 
     public Zapatos() {
     }
-    
+
     // Getters y Setters
     public String getColor() {
         return color;
@@ -39,9 +39,8 @@ public class Zapatos {
     public void setTalla(double talla) {
         this.talla = talla;
     }
-    
-    // ToString 
 
+    // ToString 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -49,5 +48,5 @@ public class Zapatos {
         sb.append(", Talla zapatos = ").append(talla);
         return sb.toString();
     }
-    
+
 }
