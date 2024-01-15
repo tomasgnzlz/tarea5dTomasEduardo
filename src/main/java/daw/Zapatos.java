@@ -11,8 +11,8 @@ package daw;
 public class Zapatos {
 
     // Atributos encapsulados
-    String color;
-    double talla;
+    private String color;
+    private double talla;
 
     // Contructor 
 
@@ -23,6 +23,25 @@ public class Zapatos {
 
     public Zapatos() {
     }
+    
+    // Getters y Setters
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getTalla() {
+        return talla;
+    }
+
+    public void setTalla(double talla) {
+        this.talla = talla;
+    }
+    //
         
 }
 //
